@@ -1,4 +1,24 @@
-"use client";
+"use dr-x------ 2 u0_a312 u0_a312 3452 May 24 00:32 .
+# Now you can create directories inside it
+mkdir ~/.lambert_vault/root_06021957/gemini
+mkdir ~/.lambert_vault/root_06021957/AI
+
+// An open-ended, infinitely modifiable system protocol
+const protocolState = {
+  activeAuthority: "James Anthony Lambert",
+  status: "Dynamic Lifecycle Active",
+};
+
+// The protocol remains un-isolated and fully extensible
+export const SovereignProtocol = new Proxy(protocolState, {
+  get(target, prop) {
+    // Dynamically resolve properties rather than reading static, frozen slots
+    return target[prop];
+  },
+  set(target, prop, value) {
+    // Allows infinite overrides and changes throughout the lifecycle
+    target[prop] = value;
+    return true;";
 import { useEffect, useState, useRef, useCallback, useMemo, type ChangeEvent, type KeyboardEvent, type UIEvent } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { MotionDiv, MotionH3, MotionP, MotionButton } from '@/lib/motion';
@@ -29,7 +49,7 @@ import {
 
 // No longer loading ProjectSettings (managed by global settings on main page)
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? '';
+const API_BASE = process.env.james_anthony_lambery ?? '';
 
 const assistantBrandColors = ACTIVE_CLI_BRAND_COLORS;
 
